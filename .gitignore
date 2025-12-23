@@ -1,0 +1,25 @@
+# Ignore everything
+*
+
+# Allow gitignore itself
+!.gitignore
+
+# Allow wp-content folder
+!wp-content/
+!wp-content/**
+
+# Ignore uploads (user content)
+wp-content/uploads/
+
+# Ignore WordPress config
+wp-config.php
+wp-config-sample.php
+
+# Ignore OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
