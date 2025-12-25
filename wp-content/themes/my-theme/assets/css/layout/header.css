@@ -5,6 +5,10 @@ header {
       justify-content: space-between;
       padding: 1rem 2rem;
       background: var(--bg-color);
+      position: fixed;
+      top: 0;
+      left: 0;
+      border: 1px solid var(--primary-color);
 }
 
 header .logo {
@@ -14,6 +18,11 @@ header .logo {
 header .logo img {
       object-fit: cover;
       width: 90%;
+}
+
+header nav {
+      display: grid;
+      gap: 1rem;
 }
 
 header nav .cta, .phone-link, .reservation-btn {
@@ -28,6 +37,7 @@ header nav .cta .reservation-btn {
       background: var(--primary-color);
       padding: 0.5rem 1rem;
       border-radius: var(--border-radius);
+      cursor: pointer;
 }
 
 header nav .cta .reservation-btn:hover {
@@ -36,12 +46,10 @@ header nav .cta .reservation-btn:hover {
 
 header nav ul {
       display: flex;
-      list-style: none;
       gap: 2rem;
 }
 
 header nav ul li a {
-      text-decoration: none;
       color: var(--primary-color);
       transition: 0.2s ease-out;
 }

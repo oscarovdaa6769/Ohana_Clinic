@@ -6,11 +6,12 @@
       <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css">
       <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/layout/header.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+      <?php wp_head();?>
 </head>
 <body>
       <header>
             <div class="logo">
-                  <img src="/wp-content/themes/my-theme/assets/images/clinic-logo.png" alt="Ohana-clinic">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/clinic-logo.png" alt="Ohana-clinic">
             </div>
             <nav>
                   <div class="cta">
@@ -26,12 +27,10 @@
                   <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">First visit information</a></li>
-                        <li><a href="#">About our hospital</a></li>
+                        <li><a href="http://ohana.test/about-our-hostipal/">About our hospital</a></li>
                         <li><a href="#">Medical Information</a></li>
                         <li><a href="#">inquity</a></li>
                         <li><a href="#">Access and Consultation Hours</a></li>
                   </ul>
             </nav>
       </header>
-</body>
-</html>
