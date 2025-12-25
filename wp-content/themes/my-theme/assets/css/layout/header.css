@@ -1,0 +1,51 @@
+header {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      background: var(--bg-color);
+}
+
+header .logo {
+      width: 250px;
+}
+
+header .logo img {
+      object-fit: cover;
+      width: 90%;
+}
+
+header nav .cta, .phone-link, .reservation-btn {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      justify-content: flex-end;
+}
+
+header nav .cta .reservation-btn {
+      color: var(--btn-text-color);
+      background: var(--primary-color);
+      padding: 0.5rem 1rem;
+      border-radius: var(--border-radius);
+}
+
+header nav .cta .reservation-btn:hover {
+      background: var(--hover-color);
+}
+
+header nav ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+}
+
+header nav ul li a {
+      text-decoration: none;
+      color: var(--primary-color);
+      transition: 0.2s ease-out;
+}
+
+header nav ul li a:hover {
+      color: var(--hover-color);
+}
