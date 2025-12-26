@@ -3,12 +3,12 @@ header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 1rem 2rem;
+      padding: 1rem 5rem;
       background: var(--bg-color);
       position: fixed;
       top: 0;
       left: 0;
-      border: 1px solid var(--primary-color);
+      border: 1px solid var(--border-color);
 }
 
 header .logo {
