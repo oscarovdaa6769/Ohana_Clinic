@@ -25,7 +25,7 @@
                         </div>
                   </div>
                   <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="http://ohana.test/">Home</a></li>
                         <li><a href="#">First visit information</a></li>
                         <li><a href="http://ohana.test/about-our-hostipal/">About our hospital</a></li>
                         <li><a href="#">Medical Information</a></li>

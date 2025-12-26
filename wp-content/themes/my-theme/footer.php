@@ -7,7 +7,7 @@
     </div>
 
     <div class="link">
-      <h4>Quick Links</h4>
+      <h5>Quick Links</h5>
       <nav>
         <ul>
           <li><a href="">Home</a></li>
@@ -21,14 +21,14 @@
     </div>
 
     <div class="contact">
-      <h4>Contact</h4>
+      <h5>Contact</h5>
       <p><i class="fa-solid fa-location-dot"></i> Phnom Penh, Cambodia</p>
       <p><i class="fa-solid fa-phone"></i> +855 12 345 678</p>
       <p><i class="fa-solid fa-envelope"></i> ohanaclinic02@gmail.com</p>
     </div>
 
     <div class="social">
-      <h4>Social</h4>
+      <h5>Social</h5>
       <div class="icon">
         <a href="">
           <i class="fa-brands fa-facebook"></i>

@@ -174,3 +174,166 @@ main .why-choose-us .right .card i {
       border-radius: var(--border-radius);
       color: var(--btn-text-color);
 }
+
+main .testimonials {
+      padding: 1rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
+
+main .testimonials .top {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .testimonials .top .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .testimonials .top .card i {
+      color: var(--primary-color);
+}
+
+main .testimonials .top .card .pro {
+      display: flex;
+      align-items: center;    
+      gap: 1rem;                               
+}
+
+main .testimonials .top .card .pro img {
+      width: 3rem;
+      height: 3rem;
+      border-radius: var(--border-radius);
+      object-fit: cover;
+}
+
+main .testimonials .bottom {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .testimonials .bottom .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .testimonials .bottom .card i {
+      color: var(--primary-color);
+}
+
+main .testimonials .bottom .card .pro {
+      display: flex;
+      align-items: center;    
+      gap: 1rem;                               
+}
+
+main .testimonials .bottom .card .pro img {
+      width: 3rem;
+      height: 3rem;
+      border-radius: var(--border-radius);
+      object-fit: cover;
+}
+
+main .cta {
+      padding: 1rem 5rem;
+}
+
+main .cta .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .cta .card div {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: flex-start;
+      justify-content: center;
+}
+
+main .cta .card .img {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+}
+
+main .cta .card .img img {
+      object-fit: cover;
+      width: 75%;
+}
+
+main .team {
+      padding: 1rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
+
+main .team .top {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .team .top .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .team .top .card .doc {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+main .team .top .card .doc img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: var(--border-radius);
+}
+
+main .team .bottom {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .team .bottom .card {
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .team .bottom .card .doc {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+main .team .bottom .card .doc img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: var(--border-radius);
+}
