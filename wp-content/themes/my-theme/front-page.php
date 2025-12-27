@@ -9,6 +9,25 @@
             </div>
       </div>
 
+      <div class="news">
+            <div class="card">
+                  <div class="left">
+                        <div class="top">
+                              <div></div>
+                              <p>NEWS</p>
+                        </div>
+                        <div class="center">
+                              <h2>notice</h2>
+                        </div>
+                        <div class="bottom">
+                              <button class="btn">
+                                    List of accouncement
+                              </button>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
       <div class="service">
             <h2>Our Services</h2>
             <div class="top">

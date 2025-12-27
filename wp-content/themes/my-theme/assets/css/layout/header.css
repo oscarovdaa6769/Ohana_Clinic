@@ -21,26 +21,23 @@ header .logo img {
 }
 
 header nav {
-      display: grid;
-      gap: 1rem;
-}
-
-header nav .cta, .phone-link, .reservation-btn {
       display: flex;
-      gap: 1rem;
+      gap: 3rem;
       align-items: center;
-      justify-content: flex-end;
 }
 
-header nav .cta .reservation-btn {
+header nav .reservation-btn {
       color: var(--btn-text-color);
       background: var(--primary-color);
       padding: 0.5rem 1rem;
       border-radius: var(--border-radius);
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
 }
 
-header nav .cta .reservation-btn:hover {
+header nav .reservation-btn:hover {
       background: var(--hover-color);
 }
 

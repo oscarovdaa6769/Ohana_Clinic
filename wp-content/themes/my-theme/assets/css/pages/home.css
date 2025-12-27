@@ -21,6 +21,41 @@ main .section-hero-side p{
       color: var(--text-color);
 }
 
+main .news {
+      padding: 1rem 5rem;
+}
+
+main .news .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 3rem;
+      border: 1px solid var(--border-color);
+}
+
+main .news .card .left {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .news .card .left .top {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+main .news .card .left .top div {
+      height: 1px;
+      width: 3rem;
+      background: var(--border-color);
+}
+
+main .news .card .left .center {
+
+}
+
 main .service {
       padding: 1rem 5rem;
       display: flex;
