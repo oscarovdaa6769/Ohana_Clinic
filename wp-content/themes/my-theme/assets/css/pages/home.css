@@ -26,10 +26,9 @@ main .news {
 }
 
 main .news .card {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
       padding: 3rem;
       border: 1px solid var(--border-color);
 }
@@ -37,7 +36,9 @@ main .news .card {
 main .news .card .left {
       display: flex;
       flex-direction: column;
-      gap: 1rem;
+      gap: 3rem;
+      align-items: flex-end;
+      justify-content: center;
 }
 
 main .news .card .left .top {
@@ -52,8 +53,42 @@ main .news .card .left .top div {
       background: var(--border-color);
 }
 
-main .news .card .left .center {
+main .news .card .right {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
 
+main .news .card .right .top {
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding-bottom: 1rem;
+}
+
+main .news .card .right .center {
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      justify-content: space-between;
+}
+
+main .news .card .right .bottom {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .social-link {
+      padding: 1rem 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 }
 
 main .service {
@@ -78,6 +113,11 @@ main .service .top .card {
       padding: 3rem;
       gap: 1rem;
       cursor: pointer;
+}
+
+main .service .card:hover {
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      border: 1px solid #fff;
 }
 
 main .service .top .card i {
@@ -116,6 +156,140 @@ main .service .bottom .card i {
       width: 3rem;
       height: 3rem;
 }
+
+main .message {
+      padding: 1rem 5rem;
+
+}
+
+main .message {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+}
+
+main .message .left {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .message .left .top {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+main .message .left .top div {
+      height: 1px;
+      width: 3rem;
+      background: var(--border-color);
+}
+
+main .message .left .center {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+main .message .right .img img {
+      object-fit: cover;
+      width: 600px;
+      height: 600px;
+      border-radius: var(--border-radius);
+}
+
+main .treatment {
+      padding: 1rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
+
+main .treatment .top {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .treatment .top .card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      gap: 1rem;
+      cursor: pointer;
+      justify-content: space-between;
+}
+
+main .treatment .bottom {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .treatment .bottom .card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--border-color);
+      padding: 3rem;
+      gap: 1rem;
+      cursor: pointer;
+      justify-content: space-between;
+}
+
+main .gallery {
+      padding: 1rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
+}
+
+main .gallery .swiper {
+      display: flex;
+      align-items: center;
+      width: 60%;
+      position: relative;
+      z-index: 1;
+}
+
+main .gallery .swiper .swiper-wrapper .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+main .gallery .swiper .swiper-wrapper .swiper-slide img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 main .why-choose-us {
       padding: 1rem 5rem;

@@ -6,6 +6,7 @@
       <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css">
       <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/layout/header.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
       <?php wp_head();?>
 </head>
 <body>

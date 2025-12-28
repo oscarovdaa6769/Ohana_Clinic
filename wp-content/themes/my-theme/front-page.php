@@ -17,53 +17,155 @@
                               <p>NEWS</p>
                         </div>
                         <div class="center">
-                              <h2>notice</h2>
+                              <h2>NOTICE</h2>
                         </div>
                         <div class="bottom">
                               <button class="btn">
                                     List of accouncement
+                                    <i class="fa-solid fa-angle-right"></i>
                               </button>
+                        </div>
+                  </div>
+                  <div class="right">
+                        <div class="top">
+                              <div>
+                                    <h6>December 12, 2025</h6>
+                              </div>
+                              <div>
+                                    <p>Notice of New Year's holiday closure</p>
+                              </div>
+                        </div>
+                        <div class="center">
+                              <div>
+                                    <h6>October 20, 2025</h6>
+                              </div>
+                              <div>
+                                    <p>Information on the expansion of PGT-A testing coverage under health insurance and the schedule of the IVF information session</p>
+                              </div>
+                        </div>
+                        <div class="bottom">
+                              <div>
+                                    <h6>October 20, 2025</h6>
+                              </div>
+                              <div>
+                                    <p>Notice of change in clinic hours</p>
+                              </div>
                         </div>
                   </div>
             </div>
       </div>
 
+      <div class="social-link">
+            <button class="btn">
+                  <i class="fa-brands fa-telegram"></i>
+                  Telegram
+            </button>
+      </div>
+
       <div class="service">
-            <h2>Our Services</h2>
+            <h2>Our Strengths</h2>
             <div class="top">
                   <div class="card">
-                        <i class="fa-solid fa-stethoscope"></i>
-                        <h5>General Consultation</h5>
-                        <p>Comprehensive medical consultations for individuals and families, focusing on accurate diagnosis and personalized care.</p>
+                        <i class="fa-solid fa-clock"></i>
+                        <h5>Easy to commute while working</h5>
+                        <p>Close to the station. Open from 8am to 8pm (Monday, Wednesday and Friday)</p>
                   </div>
                   <div class="card">
-                  <i class="fa-solid fa-vial"></i>
-                        <h5>Laboratory Testing</h5>
-                        <p>On-site lab services including blood tests and routine diagnostics for fast and reliable results.</p>
+                        <i class="fa-solid fa-square-poll-horizontal"></i>
+                        <h5>Overwhelming experience and pregnancy results</h5>
+                        <p>Pregnancy rate from 2022 to 2023: 63.2% (frozen blastocyst transfer)</p>
                   </div>
                   <div class="card">
-                        <i class="fa-solid fa-pills"></i>
-                        <h5>Pharmacy Services</h5>
-                        <p>Convenient access to prescribed medications with professional guidance to ensure safe and effective treatment.</p>
+                        <i class="fa-solid fa-user-doctor"></i>
+                        <h5>Examination by the same doctor</h5>
+                        <p>There is no difference in the treatment plan or explanation given by the doctor.</p>
+                  </div>
+            </div>
+      </div>
+
+      <div class="message">
+            <div class="left">
+                  <div class="top">
+                        <div></div>
+                        <p>MESSAGE</p>
+                  </div>
+                  <div class="center">
+                        <h1>Warm medical careand New technologiesprovides</h1>
+                        <p>Our clinic's philosophy is "More friendly infertility treatment" and it is our hope that patients, doctors, and staff can communicate and become friendly with each other to make infertility treatment, which can often be a gloomy experience, more cheerful. We also incorporate new tests, treatments, and techniques that are thought to be effective, and all staff members will do their best to support as many patients as possible so that they can have children.</p>
+                  </div>
+                  <div class="buttom">
+                        <button class="btn">
+                              Director Introduction
+                              <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                  </div>
+            </div>
+            <div class="right">
+                  <div class="img">
+                        <img src="wp-content/themes/my-theme/assets/images/dir.jpg" alt="">
+                  </div>
+            </div>
+      </div>
+
+      <div class="treatment">
+            <h2>Treatment</h2>
+            <div class="top">
+                  <div class="card">
+                        <h5>in vitro fertilization</h5>
+                        <p>This is a treatment in which eggs that have developed to the point of ovulation are removed from the body through egg retrieval surgery, fertilized with the partner's sperm, and the successfully fertilized and divided fertilized eggs are returned to the uterus to promote implantation.</p>
+                        <button class="btn">
+                              Learn more
+                              <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                  </div>
+                  <div class="card">
+                        <h5>General infertility treatment</h5>
+                        <p>This is a treatment that aims to become pregnant using timing methods or artificial insemination, depending on the cause of infertility.</p>
+                        <button class="btn">
+                              Learn more
+                              <i class="fa-solid fa-angle-right"></i>
+                        </button>
                   </div>
             </div>
             <div class="bottom">
                   <div class="card">
-                        <i class="fa-solid fa-heart-pulse"></i>
-                        <h5>Preventive Care & Checkups</h5>
-                        <p>Regular health checkups, screenings, and vaccinations to help prevent illness and maintain long-term wellness.</p>
+                        <h5>Infertility testing</h5>
+                        <p>Infertility tests are tests to check your physical condition and fertility and to identify obstacles to conception.</p>
+                        <button class="btn">
+                              Learn more
+                              <i class="fa-solid fa-angle-right"></i>
+                        </button>
                   </div>
                   <div class="card">
-                  <i class="fa-solid fa-notes-medical"></i>
-                        <h5>Chronic Disease Management</h5>
-                        <p>Ongoing care and monitoring for conditions such as diabetes, hypertension, and asthma.</p>
-                  </div>
-                  <div class="card">
-                        <i class="fa-solid fa-people-group"></i>
-                        <h5>Family & Pediatric Care</h5>
-                        <p>Compassionate healthcare services for children, adults, and seniors in a family-friendly environment.</p>
+                        <h5>infertility</h5>
+                        <p>By testing and treating recurrent infertility, we can reduce the number of miscarriages and stillbirths and improve the live birth rate. *Only for patients currently receiving treatment at our hospital.</p>
+                        <button class="btn">
+                              Learn more
+                              <i class="fa-solid fa-angle-right"></i>
+                        </button>
                   </div>
             </div>
+            <button class="btn">
+                  Other treatments and examinations
+                  <i class="fa-solid fa-angle-right"></i>
+            </button>
+      </div>
+
+      <div class="gallery">
+            <h2>Gallery</h2>
+            <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="https://keiai-clinic.jp/wp/wp-content/themes/pxlm-keiai/images/gallery_01.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="https://keiai-clinic.jp/wp/wp-content/themes/pxlm-keiai/images/gallery_02.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="https://keiai-clinic.jp/wp/wp-content/themes/pxlm-keiai/images/gallery_03.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="https://keiai-clinic.jp/wp/wp-content/themes/pxlm-keiai/images/gallery_04.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="https://keiai-clinic.jp/wp/wp-content/themes/pxlm-keiai/images/gallery_05.webp" alt=""></div>
+                  </div>
+            </div>
+            <button class="btn">
+                  Introduction to the hospital
+                  <i class="fa-solid fa-angle-right"></i>
+            </button>
       </div>
 
       <div class="why-choose-us">
@@ -230,5 +332,9 @@
 
 
 </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/slider.js"></script>
 
 <?php get_footer(); ?>
