@@ -17,8 +17,14 @@
             <nav>
                   <ul>
                         <li><a href="http://ohana.test/">Home</a></li>
-                        <li><a href="#">First visit information</a></li>
-                        <li><a href="http://ohana.test/philosophy-strength/">About our hospital</a></li>
+                        <li><a href="http://ohana.test/first-visit-information/">First visit information</a></li>
+                        <li class="dropdown">
+                              <a href="#">About our hospital</a>
+                              <ul class="dropdown-menu">
+                                    <li><a href="http://ohana.test/philosophy-strength/">Our hospital philosophy and strength <i class="fa-solid fa-angle-right"></i></a></li>
+                                    <li><a href="http://ohana.test/doctor-introduction/">Doctor Introduction <i class="fa-solid fa-angle-right"></i></a></li>
+                              </ul>
+                        </li>
                         <li><a href="#">Medical Information</a></li>
                         <li><a href="#">inquity</a></li>
                         <li><a href="#">Access and Consultation Hours</a></li>

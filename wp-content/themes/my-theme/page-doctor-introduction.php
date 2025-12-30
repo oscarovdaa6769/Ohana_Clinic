@@ -69,3 +69,5 @@
             <div class="img_doctor"> <img src="https://i.pinimg.com/736x/3c/aa/34/3caa34c3168f7e902fd1e060d7f11446.jpg" alt=""></div>
       </div>
 </main>
+
+<?php get_footer(); ?>

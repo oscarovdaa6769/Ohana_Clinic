@@ -55,3 +55,27 @@ header nav ul li a {
 header nav ul li a:hover {
       color: var(--hover-color);
 }
+
+header nav ul .dropdown {
+      position: relative;
+}
+
+header nav ul .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #fff;
+      min-width: 25rem;
+      display: none;
+}
+
+header nav ul .dropdown-menu li a {
+      
+}
+
+header nav ul .dropdown:hover .dropdown-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1rem;
+}
