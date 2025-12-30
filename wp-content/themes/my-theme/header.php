@@ -18,7 +18,7 @@
                   <ul>
                         <li><a href="http://ohana.test/">Home</a></li>
                         <li><a href="#">First visit information</a></li>
-                        <li><a href="http://ohana.test/about-our-hostipal/">About our hospital</a></li>
+                        <li><a href="http://ohana.test/philosophy-strength/">About our hospital</a></li>
                         <li><a href="#">Medical Information</a></li>
                         <li><a href="#">inquity</a></li>
                         <li><a href="#">Access and Consultation Hours</a></li>

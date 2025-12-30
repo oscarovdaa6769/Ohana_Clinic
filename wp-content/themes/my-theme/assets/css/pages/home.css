@@ -163,8 +163,8 @@ main .message {
 }
 
 main .message {
-      display: flex;
-      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
       gap: 3rem;
 }
 
@@ -194,9 +194,9 @@ main .message .left .center {
 
 main .message .right .img img {
       object-fit: cover;
-      width: 600px;
-      height: 600px;
-      border-radius: var(--border-radius);
+      width: 100%;
+      height: 40rem;
+      border-radius: 2rem;
 }
 
 main .treatment {
@@ -252,15 +252,16 @@ main .gallery {
 main .gallery .swiper {
       display: flex;
       align-items: center;
-      width: 60%;
+      width: 100%;
       position: relative;
       z-index: 1;
+      border-radius: 2rem;
 }
 
 main .gallery .swiper .swiper-wrapper .swiper-slide {
       display: flex;
       align-items: center;
-      justify-content: center;
+      gap: 1rem;
 }
 
 main .gallery .swiper .swiper-wrapper .swiper-slide img {
@@ -269,6 +270,186 @@ main .gallery .swiper .swiper-wrapper .swiper-slide img {
       object-fit: cover;
       border-radius: 2rem;
 }
+
+main .column {
+      padding: 1rem 5rem;
+}
+
+main .column .card {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 3rem;
+      border: 1px solid var(--border-color);
+}
+
+main .column .card .top {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+main .column .card .top div {
+      height: 1px;
+      width: 3rem;
+      background: var(--border-color);
+}
+
+main .column .card .center {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      gap: 1rem;
+}
+
+main .column .card .center .top {
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      justify-content: space-between;
+}
+
+main .column .card .center .bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      justify-content: space-between;
+}
+
+main .reservation {
+      padding: 1rem 5rem;
+
+}
+
+main .reservation .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 3rem;
+      border: 1px solid var(--border-color);
+}
+
+main .reservation .card .top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+main .reservation .card .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+}
+
+main .reservation .card .center div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
