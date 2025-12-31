@@ -86,17 +86,19 @@
 }
 .customer_need{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .customer_need h3{
     font-size: 35px;
     color: #0c0c0c;
-    margin-left: 15% ;
     letter-spacing: 6px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 div.line_1{
-    margin-left: 21%;
     background-color: #FF6F61;
     width: 100px;
     height: 1.5px;
@@ -104,11 +106,9 @@ div.line_1{
 .customer_need span{
     font-size: 20px;
     color: #000;
-    margin-left: 17%;
     
 }
 .customer_need i{
-    margin-left: 15%;
     color: #FF6F61;
     margin-right: 10px;
 }
@@ -125,11 +125,13 @@ div.line_1{
    margin-bottom: 30px;
    text-align: center;
 }
-div.line_2{
-    margin-left: 45%;
+.line_2{
     background-color: #FF6F61;
     width: 100px;
     height: 1.5px;
+}
+.customer_need p {
+    width: 60rem;
 }
 .customer_ne{
     width: 100%;

@@ -29,17 +29,14 @@
            <div class="customer_need">
                <h3>What you need</h3>
                   <div class="line_1"> </div>
-                  <i class="fa-solid fa-arrows-to-dot"></i>
-                  <br><span>Please note that if you forget to bring your health insurance cards, your reservation will be canceled.</span>
+                  
+                  <br><p><i class="fa-solid fa-arrows-to-dot"></i> Please note that if you forget to bring your health insurance cards, your reservation will be canceled.</p>
                   <p> <i class="fa-solid fa-arrows-to-dot"></i>Marriage certificate or family register (issued within the last three months)</p>
                   <p> <i class="fa-solid fa-arrows-to-dot"></i>Referral letter (only for those who have received treatment or examination at another hospital)</p>
                   <p> <i class="fa-solid fa-arrows-to-dot"></i>Basal body temperature chart (graph)</p>
                  <h4>Regarding examination fees at the first <br>consultation　</h4>
                  <div class="line_2"></div>
-                 <span>In order to provide accurate treatment, we ask that you undergo the following tests at your first consultation at your</span>
-                 <span>own expense. Our clinic is a designated medical institution under the Tokyo Metropolitan Government's Specific</span>
-                 <span>Infertility Treatment Subsidy Program. Tokyo Metropolitan Government subsidizes part of the costs of tests and </span>
-                 <span>treatment.</span><br> <br>   
+                 <p>In order to provide accurate treatment, we ask that you undergo the following tests at your first consultation at your own expense. Our clinic is a designated medical institution under the Tokyo Metropolitan Government's Specific Infertility Treatment Subsidy Program. Tokyo Metropolitan Government subsidizes part of the costs of tests and treatment.</p> <br>   
                  <span>For more information, please visit the following website.</span>
            </div>
            <div class="subidies_btn">
